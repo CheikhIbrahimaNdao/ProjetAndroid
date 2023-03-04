@@ -39,7 +39,7 @@ public class CVListActivity extends AppCompatActivity {
     }
 
     private void loadCVs() {
-        String url = "http://localhost:8080/api/cvs";
+        String url = "http://localhost:8081/employees/all";
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
                 Request.Method.GET,
                 url,
